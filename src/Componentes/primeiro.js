@@ -1,6 +1,7 @@
 import React from 'react'
 import { Text } from 'react-native'
+import Estilo from './estilo'
 
 export default () => (
-    <Text>Oi</Text>
+    <Text style={Estilo.txtGrande}>Oi</Text>
 )
